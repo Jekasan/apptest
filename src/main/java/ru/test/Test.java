@@ -11,7 +11,7 @@ public class Test {
         System.out.println(check(List.of(1, 1)));
         System.out.println(check(List.of(6, 6)));
         System.out.println(check(List.of(2, 2, 2, 1)));
-        System.out.println(modify(List.of(6,6,6,6)));
+        System.out.println(modify(List.of(1,2,1,2,2)));
     }
     public static boolean check(List<Integer> array) {
         Map<Integer, Boolean> check = new HashMap<>();
